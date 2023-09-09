@@ -1,5 +1,8 @@
 #include<stdio.h>
-
+/**
+ * *main -writting a program that prints line with puts function
+ *
+ * */
 
 int main(void)
 {

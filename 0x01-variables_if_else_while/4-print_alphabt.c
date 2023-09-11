@@ -1,19 +1,24 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
-* main - This program will Print the alphabet in lowercase letters, except for e and q
-*
-* Return: Always 0 (Success)
-*/
+ * main - This is main function for the program where execultion start 
+ * Description:This program will  Prints lowercase alphabet letters except q and e
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-		char letter;
+	int ch;
 
-		for (letter = 'a'; letter <= 'z'; letter++)
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		if (ch != 'e' && ch != 'q')
 		{
-		if (letter != 'e' && letter != 'q')
-		putchar(letter);
+			putchar(ch);
 		}
-		putchar('\n');
-
+		else
+		{
+		}
+	}
+	putchar('\n');
 	return (0);
 }

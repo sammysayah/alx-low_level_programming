@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main main function where program execution begins
- *
+ *Description: prints '_putchar\n' with new line
  * Return: Always 0 (Success)
  */
 int main(void)

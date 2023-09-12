@@ -1,20 +1,19 @@
 #include "main.h"
 /**
- * main - main function for this program where execultions begins  
- * Description:This program will  prints '_putchar\n'
- * Return: Always 0 (success)
+ * main main function where program execution begins
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-char str[] = "_putchar";
-int i = 0;
+	char word[8] = "_putchar";
+	int letter_index = 0;
 
-while (str[i] != '\0')
+	while (letter_index < 8)
 	{
-	char c = str[i];
-
-	_putchar(c);
-	i++;
+		_putchar(word[letter_index]);
+		letter_index++;
 	}
-return (0);
+	_putchar('\n');
+	return (0);
 }

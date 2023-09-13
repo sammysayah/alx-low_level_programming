@@ -2,7 +2,7 @@
 
 /**
  *This program will  print the alphabet in lowercase, followed by a new line.
- * Code by Prince Solomon
+ * return 0 (success)
 */
 
 void print_alphabet(void)

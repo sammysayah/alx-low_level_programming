@@ -1,19 +1,20 @@
 #include "main.h"
+
 /**
- * main main function where program execution begins
- *Description: prints '_putchar\n' with new line
+ * main -This program will  prints _putchar, followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char word[8] = "_putchar";
-	int letter_index = 0;
-
-	while (letter_index < 8)
-	{
-		_putchar(word[letter_index]);
-		letter_index++;
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }

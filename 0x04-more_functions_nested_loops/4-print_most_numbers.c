@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers -This program will  prints the numbers, from 0 to 9, without printing 2 & 4
+ * print_most_numbers -recall function from main.h which  prints the numbers, from 0 to 9, without printing 2 & 4
 **/
 
 void print_most_numbers(void)

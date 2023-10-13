@@ -56,7 +56,7 @@ void op_s(va_list form)
 }
 
 /**
- * print_all .
+ * print_all - check the code for ALX SE student.
  * @format: number of arguments in character format
  *
  * Return: Nothing.
